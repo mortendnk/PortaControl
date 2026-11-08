@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tile_label">Air conditioner</string>
+    <string name="widget_label">PortaControl climate</string>
+    <string name="widget_description">Room temperature, target −/+ and power of the favorite device</string>
+
+    <string name="tab_devices">Devices</string>
+    <string name="tab_automation">Automation</string>
+    <string name="tab_history">History</string>
+    <string name="tab_settings">Settings</string>
+
+    <string name="mode_cool">Cool</string>
+    <string name="mode_heat">Heat</string>
+    <string name="mode_dry">Dry</string>
+    <string name="mode_fan">Fan</string>
+    <string name="mode_auto">Auto</string>
+
+    <string name="fan">Fan</string>
+    <string name="fan_silent">Silent</string>
+    <string name="fan_low">Low</string>
+    <string name="fan_medium">Medium</string>
+    <string name="fan_high">High</string>
+    <string name="fan_max">Max</string>
+    <string name="auto">Auto</string>
+
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="power">Power</string>
+    <string name="today">Today</string>
+    <string name="total">Total</string>
+    <string name="cost">Cost</string>
+    <string name="runtime">Runtime</string>
+    <string name="indoor">Indoor</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="target">Target</string>
+    <string name="unreachable">unreachable</string>
+    <string name="via_lan">connected via LAN</string>
+    <string name="via_cloud">connected via cloud</string>
+    <string name="refresh">Refresh</string>
+    <string name="filter_alert">Clean the filter</string>
+    <string name="error_code">Error code %1$d – see the manual</string>
+    <string name="no_devices">No device yet. Add one in the web UI under Settings › Devices.</string>
+    <string name="connecting">Connecting …</string>
+    <string name="connected">connected</string>
+    <string name="sending">Sending …</string>
+
+    <string name="comfort">Functions</string>
+    <string name="swing">Swing</string>
+    <string name="eco">Eco</string>
+    <string name="turbo">Turbo</string>
+    <string name="sleep">Sleep</string>
+    <string name="outdoor_silent">Quiet outdoor</string>
+    <string name="ieco">iECO</string>
+    <string name="ionizer">Ionizer</string>
+    <string name="frost">Frost protection 8 °C</string>
+    <string name="self_clean">Self clean</string>
+    <string name="self_clean_confirm">Start self cleaning? It takes about 15 minutes; the device cannot be used meanwhile.</string>
+    <string name="display">Display</string>
+    <string name="beep">Beep</string>
+    <string name="power_limit">Power limit</string>
+    <string name="none">None</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="apply">Apply</string>
+
+    <string name="timers">Timers</string>
+    <string name="timers_hint">Run by the server – also while the phone is off.</string>
+    <string name="switch_on_at">Switch on at</string>
+    <string name="switch_off_in">Switch off in</string>
+    <string name="device_timers">Device timers (stored in the unit)</string>
+    <string name="device_timer_on">On after</string>
+    <string name="device_timer_off">Off after</string>
+
+    <string name="scenes">Scenes</string>
+    <string name="schedules">Weekly program</string>
+    <string name="rules">Rules</string>
+    <string name="no_scenes">No scenes.</string>
+    <string name="no_schedules">No weekly program.</string>
+    <string name="no_rules">No rules.</string>
+    <string name="next_run">Next run</string>
+    <string name="edit_in_web">Create and edit them in the web UI.</string>
+
+    <string name="consumption">Consumption</string>
+    <string name="temperatures">Temperatures</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="no_data">No data</string>
+
+    <string name="server">Server</string>
+    <string name="open_web">Open web UI</string>
+    <string name="web_hint">Device setup, scenes, weekly program, rules, MQTT/Home Assistant and push (ntfy) live in the web UI.</string>
+    <string name="favorite">Favorite device</string>
+    <string name="favorite_hint">Used by the widget and the quick settings tile.</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="log">Log</string>
+    <string name="disconnect">Disconnect</string>
+
+    <string name="onboarding_intro">Connect the app to your PortaControl server on the home network. The QR code is in the web UI under Settings › Access.</string>
+    <string name="onboarding_scan">Scan QR code</string>
+    <string name="onboarding_scan_prompt">Scan the QR code from Settings › Access</string>
+    <string name="onboarding_found">Found on the network</string>
+    <string name="onboarding_manual">Manual</string>
+    <string name="onboarding_key_hint">API key: web UI › Settings › Access, or in the container \"portacontrol-cli apikey\".</string>
+    <string name="onboarding_wrong_key">The API key is wrong.</string>
+    <string name="onboarding_bad_qr">This is no PortaControl QR code.</string>
+    <string name="server_address">Server address</string>
+    <string name="api_key">API key</string>
+    <string name="connect">Connect</string>
+</resources>

@@ -1,0 +1,21 @@
+[Unit]
+Description=PortaControl (Midea PortaSplit control)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=portacontrol
+Group=portacontrol
+ExecStart=/usr/local/bin/portacontrold -config /etc/portacontrol/config.yaml
+Restart=on-failure
+RestartSec=3
+UMask=0027
+CapabilityBoundingSet=
+AmbientCapabilities=
+NoNewPrivileges=yes
+# Namespace hardening (ProtectSystem, PrivateTmp, ...) is left out on purpose:
+# it fails with 226/NAMESPACE in unprivileged LXC containers.
+
+[Install]
+WantedBy=multi-user.target

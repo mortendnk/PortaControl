@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PortaControl</string>
+    <string name="tile_label">Klimaanlage</string>
+    <string name="widget_label">PortaControl Klima</string>
+    <string name="widget_description">Raumtemperatur, Soll −/+ und Ein/Aus der Lieblingsanlage</string>
+
+    <string name="tab_devices">Anlagen</string>
+    <string name="tab_automation">Automatik</string>
+    <string name="tab_history">Verlauf</string>
+    <string name="tab_settings">Einstellungen</string>
+
+    <string name="mode_cool">Kühlen</string>
+    <string name="mode_heat">Heizen</string>
+    <string name="mode_dry">Entfeuchten</string>
+    <string name="mode_fan">Lüften</string>
+    <string name="mode_auto">Auto</string>
+
+    <string name="fan">Lüfter</string>
+    <string name="fan_silent">Leise</string>
+    <string name="fan_low">Niedrig</string>
+    <string name="fan_medium">Mittel</string>
+    <string name="fan_high">Hoch</string>
+    <string name="fan_max">Max</string>
+    <string name="auto">Auto</string>
+
+    <string name="on">Ein</string>
+    <string name="off">Aus</string>
+    <string name="power">Leistung</string>
+    <string name="today">Heute</string>
+    <string name="total">Gesamt</string>
+    <string name="cost">Kosten</string>
+    <string name="runtime">Laufzeit</string>
+    <string name="indoor">Innen</string>
+    <string name="outdoor">Außen</string>
+    <string name="target">Soll</string>
+    <string name="unreachable">nicht erreichbar</string>
+    <string name="via_lan">verbunden über WLAN</string>
+    <string name="via_cloud">verbunden über Cloud</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="filter_alert">Filter reinigen</string>
+    <string name="error_code">Fehlercode %1$d – siehe Bedienungsanleitung</string>
+    <string name="no_devices">Noch keine Anlage eingerichtet. Im Web unter Einstellungen › Anlagen hinzufügen.</string>
+    <string name="connecting">Verbinde …</string>
+    <string name="connected">verbunden</string>
+    <string name="sending">Wird gesendet …</string>
+
+    <string name="comfort">Funktionen</string>
+    <string name="swing">Schwenken</string>
+    <string name="eco">Eco</string>
+    <string name="turbo">Turbo</string>
+    <string name="sleep">Schlafmodus</string>
+    <string name="outdoor_silent">Außen leise</string>
+    <string name="ieco">iECO</string>
+    <string name="ionizer">Ionisierer</string>
+    <string name="frost">Frostschutz 8 °C</string>
+    <string name="self_clean">Selbstreinigung</string>
+    <string name="self_clean_confirm">Selbstreinigung starten? Sie dauert etwa 15 Minuten, die Anlage ist in dieser Zeit nicht nutzbar.</string>
+    <string name="display">Anzeige</string>
+    <string name="beep">Signalton</string>
+    <string name="power_limit">Leistungsbegrenzung</string>
+    <string name="none">Keine</string>
+    <string name="start">Starten</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="delete">Löschen</string>
+    <string name="apply">Anwenden</string>
+
+    <string name="timers">Timer</string>
+    <string name="timers_hint">Vom Server ausgeführt – auch wenn das Handy aus ist.</string>
+    <string name="switch_on_at">Einschalten um</string>
+    <string name="switch_off_in">Ausschalten in</string>
+    <string name="device_timers">Gerätetimer (in der Anlage gespeichert)</string>
+    <string name="device_timer_on">Ein nach</string>
+    <string name="device_timer_off">Aus nach</string>
+
+    <string name="scenes">Szenen</string>
+    <string name="schedules">Wochenprogramm</string>
+    <string name="rules">Regeln</string>
+    <string name="no_scenes">Keine Szenen.</string>
+    <string name="no_schedules">Kein Wochenprogramm.</string>
+    <string name="no_rules">Keine Regeln.</string>
+    <string name="next_run">Nächster Lauf</string>
+    <string name="edit_in_web">Anlegen und bearbeiten in der Weboberfläche.</string>
+
+    <string name="consumption">Verbrauch</string>
+    <string name="temperatures">Temperaturen</string>
+    <string name="day">Tag</string>
+    <string name="week">Woche</string>
+    <string name="month">Monat</string>
+    <string name="year">Jahr</string>
+    <string name="no_data">Keine Daten</string>
+
+    <string name="server">Server</string>
+    <string name="open_web">Weboberfläche öffnen</string>
+    <string name="web_hint">Anlagen einrichten, Szenen, Wochenprogramm, Regeln, MQTT/Home Assistant und Push (ntfy) in der Weboberfläche.</string>
+    <string name="favorite">Lieblingsanlage</string>
+    <string name="favorite_hint">Für das Widget und die Kachel in den Schnelleinstellungen.</string>
+    <string name="theme">Design</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="log">Protokoll</string>
+    <string name="disconnect">Verbindung trennen</string>
+
+    <string name="onboarding_intro">Verbinde die App mit deinem PortaControl-Server im Heimnetz. Den QR-Code findest du in der Weboberfläche unter Einstellungen › Zugriff.</string>
+    <string name="onboarding_scan">QR-Code scannen</string>
+    <string name="onboarding_scan_prompt">QR-Code aus Einstellungen › Zugriff scannen</string>
+    <string name="onboarding_found">Im Netz gefunden</string>
+    <string name="onboarding_manual">Manuell</string>
+    <string name="onboarding_key_hint">API-Key: Weboberfläche › Einstellungen › Zugriff, oder im Container „portacontrol-cli apikey“.</string>
+    <string name="onboarding_wrong_key">Der API-Key stimmt nicht.</string>
+    <string name="onboarding_bad_qr">Das ist kein PortaControl-QR-Code.</string>
+    <string name="server_address">Server-Adresse</string>
+    <string name="api_key">API-Key</string>
+    <string name="connect">Verbinden</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Snowflake on the adaptive icon safe zone (66 of 108 dp). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateX="30" android:translateY="30">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M22,2h4v44h-4z M4.3,13.3l2,-3.46 38.1,22 -2,3.46z M2.3,32.8l38.1,-22 2,3.46 -38.1,22z M17,6l7,6 7,-6 2.4,2.8 -9.4,8 -9.4,-8z M17,42l7,-6 7,6 2.4,-2.8 -9.4,-8 -9.4,8z" />
+    </group>
+</vector>

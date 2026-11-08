@@ -1,0 +1,18 @@
+# Host networking is required: the UDP discovery broadcast and the TCP
+# connection to the air conditioner must be on the LAN.
+services:
+  portacontrol:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile
+    image: ghcr.io/mortendnk/portacontrol:latest
+    network_mode: host
+    restart: unless-stopped
+    environment:
+      PORTACONTROL_TZ: Europe/Berlin
+      # PORTACONTROL_PUBLIC_URL: http://192.168.178.20:8080
+    volumes:
+      - portacontrol-data:/data
+
+volumes:
+  portacontrol-data:

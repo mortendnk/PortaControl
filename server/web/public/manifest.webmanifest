@@ -1,0 +1,14 @@
+{
+  "name": "PortaControl",
+  "short_name": "PortaControl",
+  "description": "Lokale Steuerung für Midea PortaSplit Klimaanlagen",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f1318",
+  "theme_color": "#1f6fb2",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
